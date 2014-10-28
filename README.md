@@ -1,3 +1,3 @@
 # Go docker base images
 
-My personal [Go](https://golang.org) docker images.
+This image is for compile go program and build new minimal image with go static binaries
