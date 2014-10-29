@@ -8,7 +8,7 @@ ENV GO_FILE go1.3.3.linux-amd64.tar.gz
 
 # update & install all dependencies
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    wget git mercurial --no-install-recommends && \
+    wget git mercurial ca-certificates --no-install-recommends && \
     wget --no-check-certificate https://storage.googleapis.com/golang/$GO_FILE && \
     tar -C /usr/local -xzf $GO_FILE && \
     rm $GO_FILE && \
