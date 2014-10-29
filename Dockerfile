@@ -17,5 +17,5 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 
 # Setup ENV
 ENV PATH $PATH:/usr/local/go/bin
-ENV GOPATH $HOME
+ENV GOPATH /root
 ENV PATH $PATH:$GOPATH/bin
