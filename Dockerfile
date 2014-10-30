@@ -1,5 +1,3 @@
-# Golang Compiler
-
 FROM debian:wheezy
 MAINTAINER Bayu Aldi Yansyah <bayualdiyansyah@gmail.com>
 
